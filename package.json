@@ -2,6 +2,7 @@
   "name": "bloomberg-task",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sergeitoptalo.github.io/bloomberg-task/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
