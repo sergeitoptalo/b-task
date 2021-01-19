@@ -1,0 +1,40 @@
+.card-wrapper {
+  margin: 10px;
+  border: 1px solid $light-gray;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: $white;
+  text-align: center;
+
+  @include mobile {
+      width: 100%;
+      text-align: center;
+  }
+}
+
+.card-image-wrapper {
+    width: 220px;
+    height: 320px;
+    overflow: hidden;
+    text-align: center;
+
+    @include mobile {
+        width: auto;
+    }
+}
+
+.card-image-wrapper > img {
+    height: 100%;
+}
+
+.list-inline li:first-child .card-wrapper {
+    margin-left: 0;
+}
+
+.name-link {
+    color: $black;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
