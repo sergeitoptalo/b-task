@@ -12,7 +12,7 @@ import './App.scss';
 
 function App(): JSX.Element {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Switch>
         <Route path="/">
           <MainLayout>

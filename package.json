@@ -2,12 +2,14 @@
   "name": "bloomberg-task",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sergeitoptalo.github.io/bloomberg-task/",
+  "homepage": "http://bloomberg-task.s3-website-eu-west-1.amazonaws.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint:ts": "eslint src --ext .ts,.tsx",
+    "lint:ts-error-only": "eslint src --quiet --ext .ts,.tsx"
   },
   "dependencies": {
     "node-sass": "^4.14.1",
